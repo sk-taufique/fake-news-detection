@@ -1,4 +1,4 @@
-# new-demo
-This  is one of my git repository.
+# fake-news-detection
+Fake news detection using Machine Learning and Python.
 <br>
 Author-Sk Taufiqur Rahman
