@@ -41,20 +41,33 @@ The datset contains the fake and real news article
 The datset files re not included in this repository because they are larger tha Github's normal file upload limit
 ## How to Run
 
+### For prediction
+
 1. Install Python.
 2. Install the required libraries:
 
-   pip install -r requirements.txt
+pip install -r requirements.txt
 
-3. Run the prediction program:
+3. Run:
 
-   python predict.py
+python predict.py
 
-## Dataset
+4. Enter a news article when prompted.
 
-The dataset contains fake and real news articles.
+### For training the model
 
-The dataset files are not included in this repository because of their large file size.
+The original dataset is not included in this repository because the CSV files are larger than GitHub's normal upload limit.
+
+If you have the dataset locally, place the files here:
+
+dataset/
+├── Fake.csv
+└── True.csv
+
+Then run:
+
+python main.py
+
 
 ## Project Structure
 
