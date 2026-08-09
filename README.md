@@ -36,3 +36,8 @@ fake-news-detection/
 └── models/
     ├── fake_news_model.pkl
     └── vectorizer.pkl
+## dataset
+The datset contains the fake and real news article
+The datset files re not included in this repository because they are larger tha Github's normal file upload limit
+
+
